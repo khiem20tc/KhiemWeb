@@ -1,0 +1,270 @@
+<!-- Introduction
+     # NGUYEN HUYNH HUU KHIEM
+     # CS K2018
+     # BKU                     -->
+<!-- GOPRO Web -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KHIEM web</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/css/queries.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <a href="#home"> <img class="logo" src="./resources/img/logo.png" alt="logo"> </a>
+            <ul class="main-nav">
+                <!-- unordered list-->
+                <li><a href="#testimonials">How Clients Think</a></li>
+                <!--list item-->
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-nav-icon">
+            <i class="fas fa-bars"></i></div>
+        </nav>
+        <div class="clearfix"></div>
+        <!--fix anh huong float-->
+        <div class="row">
+            <div class="heading-main-box">
+                <h1>Nguyen Huynh <br> Huu Khiem</h1>
+                <a href="#about" class="btn">GO</a>
+                <a href="#product" class="btn">PRO</a>
+            </div>
+        </div>
+    </header>
+    <section class="about-section" id="about">
+        <div class="row">
+            <h2>About Me</h2>
+            <p class="p-long">
+                Nguyen Huynh Huu Khiem - 22/09/2000 - K2018 - Computer Science - HoChiMinh University of Technology.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 about-picture">
+                <img src="./resources/img/cat1.png" alt="cat1">
+                <p class="picture-title">
+                    Cat1
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./resources/img/cat2.png" alt="cat2">
+                <p class="picture-title">
+                    Cat2
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./resources/img/cat3.png" alt="cat3">
+                <p class="picture-title">
+                    Cat3
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./resources/img/cat4.png" alt="cat4">
+                <p class="picture-title">
+                    Cat4
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="products-section" id="product">
+        <h2>Products</h2>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="products-box">
+                    <h3>Class A</h3>
+                    <p class="products-price">1000$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>FrontEnd</li>
+                        <li><i class="fas fa-check small-icon"></i>BackEnd </li>
+                    </ul>
+                    <a href="#" class="btn">JOIN US</a>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="products-box">
+                    <h3>Class B</h3>
+                    <p class="products-price">1200$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>Security</li>
+                        <li><i class="fas fa-check small-icon"></i>Game </li>
+                    </ul>
+                    <a href="#" class="btn">JOIN US</a>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="products-box">
+                    <h3>Class C</h3>
+                    <p class="products-price">1500$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>AI </li>
+                        <li><i class="fas fa-check small-icon"></i>BigData </li>
+                    </ul>
+                    <a href="#" class="btn">JOIN US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section" id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !!
+                    <cite>
+                        <img src="resources/img/person1.png" alt="person1"> Nguyen Huynh Huu Khiem
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !!
+                    <cite>
+                        <img src="resources/img/person2.png" alt="person2"> Nguyen Huynh Huu Khiem
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !! <br>
+                    Maybe... say not maybe... !!
+                    <cite>
+                        <img src="resources/img/person3.png" alt="person3"> Nguyen Huynh Huu Khiem
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <section class="sponsors-section" id="sponsor">
+        <h2>Sponsors</h2>
+        <div class="row">
+            <ul class="sponsor-showcase clearfix">
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="resources/img/logo1.png" alt="logo1">
+                        <figcaption>
+                            Real Madrid
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="resources/img/logo2.png" alt="logo2">
+                        <figcaption>
+                            Barcelona
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="resources/img/logo3.png" alt="logo3">
+                        <figcaption>
+                            Manchester United
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <ul class="sponsor-showcase clearfix">
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="resources/img/logo4.png" alt="logo4">
+                        <figcaption>
+                            Liverpool
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="resources/img/logo5.png" alt="logo5">
+                        <figcaption>
+                            Bayern Munchen
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img class="logo-sponsor" src="resources/img/logo6.png" alt="logo6">
+                        <figcaption>
+                            Borussia Dortmun
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="row">
+            <div class="col span-1-of-3">
+                <ul class="information">
+                    <li><i class="fas fa-map-marker-alt small-icon"></i>Adress: AH2 - KTX khu A - DHQG TPHCM</li>
+                    <li><i class="fas fa-envelope small-icon"></i>Email: khiem.nguyen20tc@hcmut.edu.vn</li>
+                    <li><i class="fas fa-phone small-icon"></i>SDT: 0987565961</li>
+                </ul>
+                <ul class="social-icons">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-google-plus-square"></i></li>
+                </ul>
+            </div>
+            <div class="col span-2-of-3">
+                <form>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea placeholder="Your Massage"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" class="btn" value="Send It">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Copyright &copy; 2019 by HUUKHIEM
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
+</body>""
+
+</html>
